@@ -20,6 +20,8 @@ class help {
     }
 }
 
+//to insert data 
+
  class student extends help { 
 
     function stu() {
