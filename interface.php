@@ -2,7 +2,7 @@
 interface shapesinterface {
     public function data();
 }
-//include "shapes.php";
+//this is for interface
 
 interface store {
 

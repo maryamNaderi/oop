@@ -1,4 +1,8 @@
 <?php
+//example of early bind and late bind
+//thsi is a file
+
+
 echo "<br>";
 // example of overriding 
 class over {
@@ -12,14 +16,12 @@ class over2  extends over{
         //return "this is your class $this->name  and Mr:hakmat ";
         return parent::overriding()."this is cr of your class $this->name and his assit mr hakmat";
     }
-
 }
-
-
 $n = new over2;
  echo $n->overriding();  
 
 //example of constant
+
 echo "<br>";
 class circle {
 const x=10;
